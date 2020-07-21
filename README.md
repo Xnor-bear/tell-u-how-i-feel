@@ -5,7 +5,7 @@
 <img src="https://pic.xnor.online/tuhif.png" alt="tellu" style="zoom: 25%;" />
 
 ## 介绍
-在 [觅漾工作室技术部）](http://lkdxka.com) 技术部里**前端学习**中的练习，由于个人原因暂时只能初步使用 `HTML5` 和 `CSS3` 制作，`JavaScript` 部分系套用。
+在 [觅漾工作室](http://lkdxka.com) 技术部里**前端学习**中的练习，由于个人原因暂时只能初步使用 `HTML5` 和 `CSS3` 制作，`JavaScript` 部分系套用。
 
 由于技术有限暂时只有外观部分，功能未实现。
 
