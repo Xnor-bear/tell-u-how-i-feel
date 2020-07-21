@@ -120,6 +120,7 @@ header img {
 }
 
 .form-group label {
+  transition: background-color 0.15s ease-in-out;
   box-sizing: border-box;
   max-width: 100%;
   display: inline-block;
@@ -142,6 +143,10 @@ header img {
   right: 1.5rem;
 }
 
+label:hover {
+  background-color: #3142c7;
+}
+
 .form-group .btn-submit {
   box-sizing: border-box;
   margin: 10px 0;
@@ -149,8 +154,7 @@ header img {
   text-align: center;
   user-select: none;
   border: 1px solid transparent;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
   color: #fff;
   border-radius: 0.9rem;
   display: block;
@@ -167,8 +171,8 @@ header img {
   outline: none;
 }
 
-footer a {
-  text-decoration: none;
+.btn-submit:hover {
+  background-color: #3142c7;
 }
 
 footer {
@@ -176,6 +180,10 @@ footer {
   bottom: 0;
   font-family: "Fira Code", "Segoe UI", arial;
   font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer .copyright-year {
