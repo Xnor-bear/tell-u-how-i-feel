@@ -1,0 +1,216 @@
+html {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	background-color: #f4f6f9;
+	font-family: 'Nunito', 'Segoe UI', arial;
+}
+
+.container {
+	line-height: 1.5;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-bottom: 3.5rem;
+	margin-left: auto;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		padding-right: 360px;
+		padding-left: 360px;
+	}
+}
+
+header img {
+	width: 100%;
+	margin-bottom: 18px;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.card {
+	transition: all 0.35s ease-in;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	background-clip: border-box;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+	background-color: #fff;
+	border-radius: 3px;
+	border: none;
+	position: relative;
+	padding: 0.55rem 1.5rem;
+	margin-top: 15px;
+	margin-bottom: auto;
+	border-left: 4px solid #96a2ff;
+}
+
+.card:hover {
+	border-left-color: #6777ef;
+}
+
+.card-header {
+	background-color: transparent;
+	line-height: 30px;
+	align-self: center;
+	width: 100%;
+	min-height: 70px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+.card-header h4 {
+	font-size: 16px;
+	line-height: 30px;
+	color: #6777ef;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.card-header h4::after {
+	transition: all 0.35s ease-in;
+	content: '';
+	position: absolute;
+	background: #6777ef;
+	width: 4em;
+	height: 5px;
+	top: 70px;
+	left: 1.5rem;
+	border-radius: 6px;
+	box-shadow: 0 2px 6px #acb5f6;
+}
+
+.card-header h4:hover::after {
+	width: 6em;
+}
+
+.form-group .form-control {
+	resize: none;
+	border: 0;
+	width: 100%;
+	border-radius: 5px;
+	background-color: rgba(241, 241, 241, 0.98);
+	height: 39px;
+	padding: 10px;
+	outline-color: #6777ef;
+	margin: 10px 0;
+}
+
+.selection {
+	display: block;
+	position: relative;
+	line-height: 39px;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+.form-group .content {
+	height: 100px;
+}
+
+.form-group .contact-select {
+	position: absolute;
+	display: inline-block;
+	width: 34%;
+	top: 0;
+	left: 0;
+	padding-left: 6px;
+}
+
+.form-group .contact {
+	position: absolute;
+	display: inline-block;
+	width: 63%;
+	right: 0;
+}
+
+.form-group #file {
+	display: none;
+}
+
+.form-group label {
+	transition: 0.15s ease-in-out;
+	width: 48%;
+	display: inline-block;
+	padding: 6px 10px 6px 16px;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	border: 1px solid #acb5f6;
+	border-radius: 0.6rem;
+	color: #fff;
+	background-color: #6777ef;
+	box-shadow: 0 2px 6px #acb5f6;
+	position: absolute;
+	top: 2.2em;
+	right: 1.5rem;
+}
+
+label:hover {
+	background-color: #3142c7;
+}
+
+.form-group .btn-submit {
+	margin: 10px 0;
+	text-transform: none;
+	text-align: center;
+	user-select: none;
+	border: 1px solid #acb5f6;
+	transition: 0.15s ease-in-out;
+	color: #fff;
+	border-radius: 0.9rem;
+	display: block;
+	width: 100%;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	box-shadow: 0 2px 6px #acb5f6;
+	background-color: #6777ef;
+	padding: 0.55rem 1.5rem;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn-submit:hover {
+	background-color: #3142c7;
+}
+
+footer {
+	text-align: center;
+	bottom: 0;
+	font-family: 'Fira Code';
+	font-size: 12px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer span {
+	font-family: sans-serif;
+}

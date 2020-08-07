@@ -21,7 +21,7 @@
 				<h4>小可爱表白墙</h4>
 				<div class="hl"></div>
 			</div>
-			<form action="javascript:void(0);" method="POST">
+			<form action="/submit" method="POST">
 				<div id="content-box">
 					<div class="form-group">
 						<label>
@@ -36,7 +36,7 @@
 						<textarea class="form-control nickname" name="nickname" placeholder="昵称" required></textarea>
 					</div>
 					<div class="form-group selection">
-						<select id="contact-select" class="form-control contact-select" required>
+						<select id="contact-select" class="form-control contact-select" name="way" required>
 							<option value="" disabled selected>联系方式</option>
 							<option value="qq">QQ</option>
 							<option value="wechat">微信</option>
